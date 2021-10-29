@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+}
+
+.random-image{
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+}
