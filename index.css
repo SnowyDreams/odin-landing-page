@@ -5,6 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
+    
 }
 
 .flex {
@@ -39,8 +40,11 @@ footer {
     color: white;
     padding: 20px;
     justify-content: center;
-
-    margin-top: auto;
+    left: 0px;
+    right: 0px;
+    
+    position: fixed;
+    bottom: 0;
 }
 
 header {
