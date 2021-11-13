@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header class="header flex">
-        <p>Header Logo</p>
+    <header class="flex">
+        <p class="logo">Header Logo</p>
 
-        <ul>
+        <ul class="flex">
             <li><a href="google.com"> header link one</a></li>
             <li><a href="google.com"> header link two</a></li>
             <li><a href="google.com"> header link three</a></li>
@@ -21,11 +21,11 @@
     </header>
 
     <div class="first flex">
-        <div class="column">
-            <div>
+        <div class="column left-side flex">
+            <div class="hero-main">
                 This website is awesome
             </div>
-            <div>
+            <div class="sec-text">
                 This website has some subtext thhat goes here under the main title. its smaller font and the color is
                 lower
             </div>
@@ -33,12 +33,12 @@
                 Sign Up
             </button>
         </div>
-        <img src="./forest.png" alt="blueish forest">
+        <img class="hero-img" src="./forest.png" alt="blueish forest">
     </div>
 
     <div class="second flex column">
-        <div>Some random information</div>
-        <div class="flex">
+        <div class="info-title">Some random information</div>
+        <div class="flex info">
             <div class="random-info">
                 <img class="random-image" src="./forest.png" alt="">
                 this is some subtext under an illustration or image
@@ -59,29 +59,31 @@
     </div>
 
     <div class="third flex column">
-        <div>
+        <div class="quote">
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
             people will actually read it. Who knows? All i know is that it looks nice.
         </div>
-        <div>
+        <div class="citation">
             -Thor, God of Thunder
         </div>
     </div>
-    <div class="forth flex">
-        <div class="column flex">
-            <div>
-                Call to action! It's time!
+    <div class="forth">
+        <div class="call-action flex">
+            <div class="column flex">
+                <div class="bold">
+                    Call to action! It's time!
+                </div>
+                <div>
+                    Sign up for our product by clicking that button right over there!
+                </div>
             </div>
-            <div>
-                Sign up for our product by clicking that button right over there!
-            </div>
+            <button class="call-button">Sign up</button>
         </div>
-        <button>Sign up</button>
     </div>
 
     <footer class="footer flex">
         <div>
-            Copyright [MOTHERFUCKING COPYRIGHT SYMBOL] The Odin Project 2021
+            Copyright © The Odin Project 2021
         </div>
     </footer>
 </body>
